@@ -46,8 +46,8 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">servicio y mantenimiento para su empresa</div>
           <div class="intro-heading text-uppercase">lapachos</div>
+          <div class="intro-lead-in">servicio y mantenimiento para su empresa</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Bienvenido</a>
         </div>
       </div>
