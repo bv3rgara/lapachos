@@ -17,8 +17,17 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
+    <!-- alertify -->
+    <link href="css/alertify/alertify.core.css" rel="stylesheet">
+    <link href="css/alertify/alertify.default.css" rel="stylesheet">
   </head>
-  <body id="page-top">
+  <?php
+  if (isset($_POST['name']) and isset($_POST['email']) and isset($_POST['message'])){
+    ?><body id="page-top" onload="mostrar_mensaje()"><?php
+  }else{
+    ?><body id="page-top"><?php
+  }
+  ?>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
@@ -162,11 +171,11 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
-                    <input class="form-control" id="name" name="name" type="text" placeholder="Nombre y Apellido *" required="required" data-validation-required-message="Por favor ingrese su nombre.">
+                    <input class="form-control" id="name" name="name" type="text" placeholder="Nombre y Apellido *" required="required">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" name="email" type="email" placeholder="Correo Electrónico *" required="required" data-validation-required-message="Por favor ingrese su correo correo electrónico">
+                    <input class="form-control" id="email" name="email" type="email" placeholder="Correo Electrónico *" required="required">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
@@ -176,7 +185,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" name="message" placeholder="Escribe tu mensaje... *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                    <textarea class="form-control" id="message" name="message" placeholder="Mensaje... *" required="required"></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
@@ -325,6 +334,13 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+    <!-- alertify -->
+    <script src="js/alertify/alertify.js"></script>
+    <script type="text/javascript">
+        function mostrar_mensaje() {
+          alertify.success("El correo electrónico fue enviado...");
+        }
+    </script>
   </body>
   <?php
   if (isset($_REQUEST["name"]) and isset($_REQUEST["email"]) and isset($_REQUEST["message"])){
