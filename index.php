@@ -359,8 +359,8 @@
       $headers = "MIME-Version: 1.0\r\n"; 
       $headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
       $headers .= "From: ".$_REQUEST["name"]." <".$_REQUEST["email"].">\r\n";
-      $headers .= "Bcc: vergara_bruno@outlook.com\r\n"; 
-      $mail = mail("vergara.bruben@gmail.com", "Enviadoalgun desde la pagina web", $body, $headers);
+      $headers .= "Bcc: lapachosjardineria@gmail.com\r\n";
+      $mail = mail("servicios.lapachos@gmail.com", "Enviado desde la pagina web", $body, $headers);
   }
   ?>
 </html>
