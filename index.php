@@ -17,7 +17,7 @@
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <!-- Custom styles for this template -->
     <link href="css/agency.min.css" rel="stylesheet">
-    <!-- alertify -->
+    <!-- Alertify -->
     <link href="css/alertify/alertify.core.css" rel="stylesheet">
     <link href="css/alertify/alertify.default.css" rel="stylesheet">
   </head>
@@ -256,23 +256,30 @@
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="https://facebook.com">
+                <a href="https://facebook.com/lapachos.ser.3/" target="_blank">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://api.whatsapp.com/send?phone=5493794566859&text=" target="blank">
+                <a href="https://api.whatsapp.com/send?phone=5493794566859" data-toggle="tooltip" data-placement="top" target="_blank"
+                title="Jose: +549 379 4566859">
                   <i class="fab fa-whatsapp"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://instagram.com">
-                  <i class="fab fa-instagram"></i>
+                <a href="mailto:servicios.lapachos@gmail.com">
+                  <i class="far fa-envelope"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="mailto:lapachosjardineria@gmail.com">
-                  <i class="far fa-envelope"></i>
+                <a href="https://api.whatsapp.com/send?phone=5493794680559" data-toggle="tooltip" data-placement="top" target="_blank"
+                title="Fernando: +549 379 4680559">
+                  <i class="fab fa-whatsapp"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://instagram.com/lapachos.servicios/" target="_blank">
+                  <i class="fab fa-instagram"></i>
                 </a>
               </li>
             </ul>
@@ -440,12 +447,19 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
-    <!-- alertify -->
+    <!-- Alertify -->
     <script src="js/alertify/alertify.js"></script>
     <script type="text/javascript">
         function mostrar_mensaje() {
           alertify.success("El correo electrónico fue enviado...");
         }
+    </script>
+    <!-- Popper -->
+    <script src="js/popper/popper.js"></script>
+    <script>
+      $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        });
     </script>
   </body>
   <?php
