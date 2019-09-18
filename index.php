@@ -55,8 +55,8 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-heading text-uppercase">&nbsp;</div>
-          <div class="intro-lead-in">&nbsp;</div>
+          <div class="intro-heading text-uppercase">lapachos</div>
+          <div class="intro-lead-in">servicio y mantenimiento para su empresa y hogar</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Bienvenido</a>
         </div>
       </div>
@@ -77,7 +77,7 @@
               <i class="fab fa-envira fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Mantenimiento</h4>
-            <p class="text-muted">Somos los socios perfectos para su empresa, ofreciendo una amplia variedad de servicios de limpieza y mantenimiento con soluciones integradas e integrales.</p>
+            <p class="text-muted">Somos un equipo con una amplia experiencia en servicios de mantenimiento para empresas y hogares. Contamos con maquinaria y personal capacitado para realizar todo tipos de tareas como cortes de césped, limpiezas, fumigaciones, desmalezaciones, extracciones de árboles, podas bajas y en alturas.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -85,7 +85,7 @@
               <i class="fab fa-pagelines fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Control de Plagas</h4>
-            <p class="text-muted">Desarrollamos las soluciones más innovadoras, fiables y ecológicas para combatir cualquier problema ocasionado por plagas.</p>
+            <p class="text-muted">Somos capaces de manejar y exterminar toda clase de plagas con certificación habilitada en interiores y exteriores. Desinsectación, desinfeccón, desratizacón, control de palomas, etc.</p>
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -93,7 +93,7 @@
               <i class="fas fa-tree fa-stack-1x fa-inverse"></i>
             </span>
             <h4 class="service-heading">Espacios Verdes</h4>
-            <p class="text-muted">Contamos con procesos estandarizados, herramienras profesionales y cumplimos con todos los requisitos legales y reglamentarios que nuestra actividad requiere.</p>
+            <p class="text-muted">Somos especialistas en diseño y construcción de jardines, ocupándonos de todo el proceso desde el diseño inicial. Colocación de césped, plantas, árboles, ornamentaciones florales de estación abonado.</p>
           </div>
         </div>
       </div>
@@ -247,12 +247,13 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-4">
-            <h6><em>Copyright © Lapachos Servicios</em></h6>
+            <h6><em>Copyright © Lapachos Servicios</em><a href="http://sistemasctes.com.ar/"><br>by Grasshoppers</a></h6>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="https://facebook.com/lapachos.ser.3/" target="_blank">
+                <a href="https://facebook.com/lapachos.ser.3/" data-toggle="tooltip" data-placement="top" target="_blank"
+                title="lapachos.ser.3">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
@@ -263,7 +264,8 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="mailto:servicios.lapachos@gmail.com">
+                <a href="mailto:servicios.lapachos@gmail.com" data-toggle="tooltip" data-placement="top" target="_blank"
+                title="servicios.lapachos@gmail.com">
                   <i class="far fa-envelope"></i>
                 </a>
               </li>
@@ -274,7 +276,8 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://instagram.com/lapachos.servicios/" target="_blank">
+                <a href="https://instagram.com/lapachos.servicios/" data-toggle="tooltip" data-placement="top" target="_blank"
+                title="lapachos.servicios">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
@@ -283,7 +286,7 @@
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <a href="http://sistemasctes.com.ar/">Powered by Grasshoppers</a>
+                <h6>Jose: 3794-566859<br>Fernando: 3794-680559</h6>
               </li>
             </ul>
           </div>
