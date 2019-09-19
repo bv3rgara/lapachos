@@ -247,7 +247,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-4">
-            <h6><em>Copyright © Lapachos Servicios</em><a href="http://sistemasctes.com.ar/"><br>by Grasshoppers</a></h6>
+            <h6>Copyright © Lapachos Servicios</h6>
+            <small><strong>Jose: 3794-566859&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Fernando: 3794-680559</strong></small>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -286,7 +287,7 @@
           <div class="col-md-4">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
-                <h6>Jose: 3794-566859<br>Fernando: 3794-680559</h6>
+                <a href="http://sistemasctes.com.ar/">Powered by Grasshoppers</a>
               </li>
             </ul>
           </div>
