@@ -16,7 +16,7 @@
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
     <!-- Custom styles for this template -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/agency.css" rel="stylesheet">
     <!-- Alertify -->
     <link href="css/alertify/alertify.core.css" rel="stylesheet">
     <link href="css/alertify/alertify.default.css" rel="stylesheet">
@@ -31,7 +31,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <img class="img-fluid d-block mx-auto" src="img/logo.png" alt="">
+        <img class="img-responsive d-block mx-auto" src="img/logo.png" alt="">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -253,8 +253,7 @@
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
-                <a href="https://facebook.com/lapachos.ser.3/" data-toggle="tooltip" data-placement="top" target="_blank"
-                title="lapachos.ser.3">
+                <a href="https://facebook.com/lapachos.ser.3/" target="_blank">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
@@ -265,8 +264,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="mailto:servicios.lapachos@gmail.com" data-toggle="tooltip" data-placement="top" target="_blank"
-                title="servicios.lapachos@gmail.com">
+                <a href="mailto:servicios.lapachos@gmail.com" target="_blank">
                   <i class="far fa-envelope"></i>
                 </a>
               </li>
@@ -277,8 +275,7 @@
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="https://instagram.com/lapachos.servicios/" data-toggle="tooltip" data-placement="top" target="_blank"
-                title="lapachos.servicios">
+                <a href="https://instagram.com/lapachos.servicios/" target="_blank">
                   <i class="fab fa-instagram"></i>
                 </a>
               </li>
