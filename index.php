@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-ES">
   <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148795022-1"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'UA-148795022-1');
-    </script>
-    <meta charset="utf-8">
-    <link rel="shortcut icon" href="img/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
     <title>Lapachos Servicios</title>
+    <meta name="title" content="Lapachos Servicios">
+    <meta name="description" content="Lapachos Servicios Corrientes, servicio y mantenimiento para su empresa y hogar">
+    <meta name="keywords" content="lapachos servicios corrientes, lapachos servicios, lapachos corrientes, lapachos, servicios, corrientes">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Spanish">
+    <meta name="author" content="Lapachos Servicios">
+    <link rel="shortcut icon" href="img/favicon.png" />
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template -->
@@ -28,6 +24,13 @@
     <!-- Alertify -->
     <link href="css/alertify/alertify.core.css" rel="stylesheet">
     <link href="css/alertify/alertify.default.css" rel="stylesheet">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148795022-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-148795022-1');
+    </script>
   </head>
   <?php
   if (isset($_POST['name']) and isset($_POST['email']) and isset($_POST['message'])){
@@ -39,7 +42,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <img class="img-responsive d-block ml" src="img/logo.png" alt="">
+        <img class="img-responsive d-block ml" src="img/logo.png" alt="logo_lapachos">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -63,7 +66,7 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-heading text-uppercase">lapachos</div>
+          <h1><div class="intro-heading text-uppercase">lapachos</div></h1>
           <div class="intro-lead-in">servicio y mantenimiento para su empresa y hogar</div>
           <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Bienvenido</a>
         </div>
@@ -123,7 +126,7 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/01-thumbnail.jpg" alt="01-thumbnail">
             </a>
             <div class="portfolio-caption">
               <h4>Servicios</h4>
@@ -137,7 +140,7 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="02-thumbnail">
             </a>
             <div class="portfolio-caption">
               <h4>Servicios</h4>
@@ -151,7 +154,7 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/03-thumbnail.jpg" alt="03-thumbnail">
             </a>
             <div class="portfolio-caption">
               <h4>Servicios</h4>
@@ -165,7 +168,7 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/04-thumbnail.jpg" alt="04-thumbnail">
             </a>
             <div class="portfolio-caption">
               <h4>Servicios</h4>
@@ -179,7 +182,7 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/05-thumbnail.jpg" alt="05-thumbnail">
             </a>
             <div class="portfolio-caption">
               <h4>Servicios</h4>
@@ -193,7 +196,7 @@
                   <i class="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/06-thumbnail.jpg" alt="06-thumbnail">
             </a>
             <div class="portfolio-caption">
               <h4>Servicios</h4>
@@ -313,7 +316,7 @@
             <div class="row">
               <div class="col-lg-7 mx-auto">
                 <div class="modal-body">
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="01-full">
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Cerrar</button>
@@ -337,7 +340,7 @@
             <div class="row">
               <div class="col-lg-7 mx-auto">
                 <div class="modal-body">
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="02-full">
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Cerrar</button>
@@ -361,7 +364,7 @@
             <div class="row">
               <div class="col-lg-7 mx-auto">
                 <div class="modal-body">
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="03-full">
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Cerrar</button>
@@ -385,7 +388,7 @@
             <div class="row">
               <div class="col-lg-7 mx-auto">
                 <div class="modal-body">
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="04-full">
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Cerrar</button>
@@ -409,7 +412,7 @@
             <div class="row">
               <div class="col-lg-7 mx-auto">
                 <div class="modal-body">
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="05-full">
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Cerrar</button>
@@ -433,7 +436,7 @@
             <div class="row">
               <div class="col-lg-7 mx-auto">
                 <div class="modal-body">
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
+                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="06-full">
                   <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fas fa-times"></i>
                     Cerrar</button>
