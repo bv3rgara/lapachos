@@ -3,8 +3,8 @@
   <head>
     <title>Lapachos Servicios</title>
     <meta name="title" content="Lapachos Servicios">
-    <meta name="description" content="Lapachos Servicios Corrientes, servicio y mantenimiento para su empresa y hogar">
-    <meta name="keywords" content="lapachos servicios corrientes, lapachos servicios, lapachos corrientes, lapachos, servicios, corrientes">
+    <meta name="description" content="Lapachos Servicios Corrientes, servicio y mantenimiento para su empresa y hogar. Contactate con Jose: 3794-566859 o Fernando: 3794-680559. Somos un equipo con una amplia experiencia en servicios de mantenimiento. Contamos con maquinaria y personal capacitado para realizar todo tipos de tareas como cortes de césped, limpiezas, fumigaciones, desmalezaciones, extracciones de árboles, podas bajas y en alturas">
+    <meta name="keywords" content="lapachos servicios corrientes, servicios lapachos, lapachos servicios, lapachos corrientes, lapachos">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="index, follow">
